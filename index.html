@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta charset="UTF-8">
+  <title>PaperBase</title>
+
+  <style>
+    :root {
+      --bg: #0c0c0c;
+      --surface: #141414;
+      --border: #222;
+      --red: #cc2200;
+      --red-dim: #7a1400;
+      --cream: #f0ede8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--cream);
+      font-family: 'IBM Plex Mono', monospace;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── HEADER ── */
+    header {
+      padding: 24px 40px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28px;
+      letter-spacing: 3px;
+      color: var(--cream);
+    }
+
+    .logo span { color: var(--red); }
+
+    .tag {
+      font-size: 10px;
+      color: var(--muted);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border: 1px solid var(--border);
+      padding: 3px 8px;
+    }
+
+    /* ── MAIN ── */
+    main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 0;
+    }
+
+
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Paper<span>Base</span></div>
+      <div class="tag">Research</div>
+    </header>
+    <main>
+      <!-- Content placeholder -->
+    </main>
+  </body>
+</html>
+
+
+
+    </html>
